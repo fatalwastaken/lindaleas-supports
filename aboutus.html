@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who We Are </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css" integrity="sha384-z4tVnCr80ZcL0iufVdGQSUzNvJsKjEtqYZjiQrrYKlpGow+btDHDfQWkFjoaz/Zr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styleus.css">
+    <link rel="stylesheet" type="text/css" href="nav.css">
+    <link rel="stylesheet" type="text/css" href="footer.css">
+</head>
+<body>
+    <div class="ss">
+        <header>
+            <div class="logo">
+                <a href="#"><img src="flower.png" alt="logo"></a>
+            </div>
+            <div class="group">
+                <ul class="navigation">
+                    <li><a href="website.html">Home</a></li>
+                    <li class="active"><a href="#">Who we are</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contactus.html">Contact</a></li>
+                </ul>
+                <div class="search">
+                    <span class="icon">
+                        <ion-icon name="search-outline" class="searchBtn"></ion-icon>
+                        <ion-icon name="close-outline" class="closeBtn"></ion-icon>
+                    </span>
+                </div>
+                <ion-icon name="menu-outline" class="menuToggle"></ion-icon>
+            </div>
+            <div class="searchBox">
+                <input type="text" placeholder="Searchbar...">
+            </div>
+        </header>
+        <section>
+            <div class="container">
+                <div class="card">
+                    <div class="content">
+                        <div class="profileimg"><img src="front.jpg"></div>
+                        <div class="contentBx">
+                            <h3>Linda-lea Gruber<br><span>Social Support Worker</span></h3>
+                            <p>"Life shouldn't be this hard - that's why I'm here"</p>
+                        </div>
+                    </div>
+                    <ul class="sci">
+                        <li style="--i:1">
+                            <a href="https://www.facebook.com/profile.php?id=100085685620589"><ion-icon name="logo-facebook"></ion-icon></a>
+                        </li>
+                        <li style="--i:2">
+                            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="infoBox">
+                    <h2><span>Meet</span> Linda-lea</h2>
+                    <p>This is filler text used to purposefully fill space until mum writes something. gay. i love brook.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+            <div class="wave" id="wave2"></div>
+            <div class="wave" id="wave3"></div>
+            <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social_icon">
+            <li><a href="https://www.facebook.com/profile.php?id=100085685620589"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-google"></ion-icon></a></li>
+        </ul>
+        <ul class="menu">
+            <li><a href="website.html">Home</a></li>
+            <li class="active"><a href="#">Who we are</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="contactus.html">Contact</a></li>
+        </ul>
+        <p>©2022 Linda-lea's Supports | All Rights Reserved</p>
+    </footer>
+    <script>
+        let searchBtn = document.querySelector('.searchBtn');
+        let closeBtn = document.querySelector('.closeBtn');
+        let searchBox = document.querySelector('.searchBox');
+        let navigation = document.querySelector('.navigation');
+        let menuToggle = document.querySelector('.menuToggle');
+        let header = document.querySelector('header');
+
+        searchBtn.onclick = function () {
+            searchBox.classList.add('active');
+            closeBtn.classList.add('active');
+            searchBtn.classList.add('active');
+            menuToggle.classList.add('hide');
+            header.classList.remove('open');
+        }
+        closeBtn.onclick = function () {
+            searchBox.classList.remove('active');
+            closeBtn.classList.remove('active');
+            searchBtn.classList.remove('active');
+            menuToggle.classList.remove('hide');
+        }
+        menuToggle.onclick = function () {
+            header.classList.toggle('open');
+            searchBox.classList.remove('active');
+            closeBtn.classList.remove('active');
+            searchBtn.classList.remove('active');
+        }
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
