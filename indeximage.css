@@ -42,6 +42,7 @@ body
     left: 50%;
     transform: translate(-50%,-50%);
     font-size: 6vw;
+    font-size: 3em;
     color: #fff;
     font-weight: 700;
     transition: 1s;
@@ -68,7 +69,7 @@ section
 }
 section h2 
 {
-    font-size: 2em;
+    font-size: 1.7em;
     text-align: center;
 
 }
