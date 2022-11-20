@@ -64,13 +64,16 @@ section
 {
     margin-top: 30vh;
     padding: 100px;
+    justify-content: center;
 }
 section h2 
 {
     font-size: 3em;
+    text-align: center;
 
 }
 section p
 {
     font-size: 1.2em;
+    text-align: center;
 }
