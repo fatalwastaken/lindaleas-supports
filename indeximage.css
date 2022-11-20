@@ -56,7 +56,7 @@ body
 .bg.sticky .Title
 {
     position: absolute;
-    font-size: 1.5em;
+    font-size: 1.8em;
     left: 100px;
     transform: translate(0,-50%);
 }
@@ -68,7 +68,7 @@ section
 }
 section h2 
 {
-    font-size: 2.1em;
+    font-size: 2em;
     text-align: center;
 
 }
