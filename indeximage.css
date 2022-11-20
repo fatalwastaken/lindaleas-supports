@@ -48,7 +48,7 @@ body
     text-decoration: none;
     text-align: center;
     text-transform: uppercase;
-    text-shadow: 0 10px 8px #B63FC0;
+    text-shadow: 5px 1px 8px #B63FC0;
     letter-spacing: 0.1em;
     z-index: 1;
     cursor: default;
