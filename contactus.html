@@ -15,7 +15,7 @@
             </div>
             <div class="group">
                 <ul class="navigation">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="website.html">Home</a></li>
                     <li><a href="aboutus.html">Who we are</a></li>
                     <li><a href="services.html">Services</a></li>
                     <li class="active"><a href="#">Contact</a></li>
@@ -50,7 +50,7 @@
                         <div class="icon"><ion-icon name="mail-outline"></ion-icon></div>
                         <div class="text">
                             <h3>Email</h3>
-                            <p>info@lindaleassupports.com.au</p>
+                            <p>lindaleassupport@gmail.com</p>
                         </div>
                     </div>
                     <h2 class="txt">Connect with us</h2>
@@ -63,13 +63,11 @@
                     <form action="https://formsubmit.co/info@lindaleassupports.com.au" method="POST">
                         <h2>Send Message</h2>
                         <div class="inputBox">
-                            <input type="hidden" name="_captcha" value="false">
-                            <input type="hidden" name="_subject" value="Website enquiry!">
-                            <input type="text" name="Name" required="required">
+                            <input type="text" name="" required="required">
                             <span>Full Name</span>
                         </div>
                         <div class="inputBox">
-                            <input type="text" name="Email" required="required">
+                            <input type="text" name="" required="required">
                             <span>Email</span>
                         </div>
                         <div class="inputBox">
@@ -79,10 +77,17 @@
                         <div class="inputBox">
                             <input type="submit" value="Send">
                         </div>
-
+                        <input type="hidden" name="_next" onsubmit="openPopup()">
+                        <input type="hidden" name="_autoresponse" value="Hello; thank you for contacting Linda-lea's Supports! We've recieved your enquiry and will respond as soon as possible. If you need to contact us immediately, you can also call 0493-362-579. Thank you!">
                     </form>
                 </div>
 
+            </div>
+            <div class="popup" id="popup">
+                <img src="tick.png">
+                <h2>Thank You!</h2>
+                <p>Your details have been successfully submitted and sent onto our office email. We'll get back to you shortly. Thanks!</p>
+                <button type="button" onclick="closePopup()">Okay</button>
             </div>
         </section>
     </div>
@@ -99,7 +104,7 @@
             <li><a href="#"><ion-icon name="logo-google"></ion-icon></a></li>
         </ul>
         <ul class="menu">
-            <li><a href="index.html">Home</a></li>
+            <li><a href="website.html">Home</a></li>
             <li><a href="aboutus.html">Who we are</a></li>
             <li><a href="services.html">Services</a></li>
             <li class="active"><a href="#">Contact</a></li>
@@ -134,6 +139,16 @@
             searchBox.classList.remove('active');
             closeBtn.classList.remove('active');
             searchBtn.classList.remove('active');
+        }
+    </script>
+    <script>
+        let popup = document.getElementById("popup");
+
+        function openPopup() {
+            popup.classList.add("open-popup");
+        }
+        function closePopup() {
+            popup.classList.remove("open-popup");
         }
     </script>
 </body>
