@@ -63,11 +63,12 @@
                     <form action="https://formsubmit.co/lindaleassuppor@gmail.com" method="POST">
                         <h2>Send Message</h2>
                         <div class="inputBox">
-                            <input type="text" name="" required="required">
+                            <input type="hidden" name="_subject" value="New enquiry recieved">
+                            <input type="text" name="name" required="required">
                             <span>Full Name</span>
                         </div>
                         <div class="inputBox">
-                            <input type="text" name="" required="required">
+                            <input type="text" name="email" required="required">
                             <span>Email</span>
                         </div>
                         <div class="inputBox">
@@ -76,8 +77,8 @@
                         </div>
                         <div class="inputBox">
                             <input type="submit" value="Send" onsubmit="openPopup()">
-                        </div>
                         <input type="hidden" name="_autoresponse" value="Hello; thank you for contacting Linda-lea's Supports! We've recieved your enquiry and will respond as soon as possible. If you need to contact us immediately, you can also call 0493-362-579. Thank you!">
+                        </div>
                     </form>
                 </div>
 
