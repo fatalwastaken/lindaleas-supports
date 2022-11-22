@@ -1,0 +1,93 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background: #222;
+    min-height: 100vh;
+}
+section
+{
+    padding: 40px 0 40px 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+.containerTY
+{
+    position: relative;
+    min-height: 50vh;
+    max-width: 500px;
+    padding: 0 15px;
+    border-radius: 3px;
+    display: flex;
+    background: #fff;
+}
+.tyBox
+{
+    position: relative;
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.tyBox h2 
+{
+    font-size: 3em;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 25px;
+    color: #f15cff;
+    padding: 0 0 15px 0;
+    text-shadow: 2px 0 20px #8aa3ff;
+}
+.tyBox p
+{
+    font-size: 1.1em;
+    font-weight: 400;
+    text-align: center;
+}
+.tyBox img
+{
+    position: relative;
+    width: 100px;
+    align-self: center;
+    padding: 0 0 15px 0;
+    display: flex;
+}
+.tyBox .button
+{
+    position: relative;
+    display: flex;
+    margin: 10px 0 15px 0;
+    background: #f15cff;
+    border: 0;
+    outline: none;
+    margin-top: 20px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+    width: 130px;
+    align-self: center;
+}
+.tyBox .button a
+{
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 300;
+    transition: 0.5s;
+}
+.tyBox .button a:hover
+{
+    background: #4afffc;
+    color: #222;
+}
