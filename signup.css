@@ -13,12 +13,11 @@ body
 }
 section
 {
-    display: flex;
     min-height: 100vh;
     justify-content: center;
     position: relative;
     padding: 50px 100px;
-    margin-bottom: 200px;
+    margin-bottom: 350px;
 }
 .container
 {
@@ -35,7 +34,7 @@ section
 {
     position: relative;
     width: 480px;
-    height: 750px;
+    height: 715px;
     background: #1c1c1c;
     display: flex;
     justify-content: center;
@@ -50,7 +49,7 @@ section
     top: -50%;
     left: -50%;
     width: 480px;
-    height: 750px;
+    height: 715px;
     background: linear-gradient(0deg, transparent, #ec13a2, #ec13a2);
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
@@ -62,7 +61,7 @@ section
     top: -50%;
     left: -50%;
     width: 480px;
-    height: 750px;
+    height: 715px;
     background: linear-gradient(0deg, transparent, #ec13a2, #ec13a2);
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
