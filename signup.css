@@ -27,6 +27,7 @@ section
     display: flex;
     justify-content: space-around;
     align-items: center;
+    align-text: center;
     flex-wrap: wrap;
     padding: 70px 0;
 }
@@ -34,7 +35,7 @@ section
 {
     position: relative;
     width: 480px;
-    height: 560px;
+    height: 650px;
     background: #1c1c1c;
     display: flex;
     justify-content: center;
@@ -49,7 +50,7 @@ section
     top: -50%;
     left: -50%;
     width: 480px;
-    height: 560px;
+    height: 650px;
     background: linear-gradient(0deg, transparent, #ec13a2, #ec13a2);
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
@@ -61,7 +62,7 @@ section
     top: -50%;
     left: -50%;
     width: 480px;
-    height: 560px;
+    height: 650px;
     background: linear-gradient(0deg, transparent, #ec13a2, #ec13a2);
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
