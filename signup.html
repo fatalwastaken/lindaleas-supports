@@ -40,6 +40,11 @@
                         <h2>Sign Up</h2>
                         <form action="repos/signup.inc.php" method="post">
                         <div class="inputBox">
+                            <input type="text" name="name" required="required">
+                            <span>Full name...</span>
+                            <i></i>
+                        </div>
+                            <div class="inputBox">
                             <input type="email" name="email" required="required">
                             <span>Email</span>
                             <i></i>
@@ -55,7 +60,7 @@
                             <i></i>
                         </div>
                         <div class="inputBox">
-                            <input type="password" name="pwd" required="required">
+                            <input type="password" name="pwdrepeat" required="required">
                             <span>Confirm your password</span>
                             <i></i>
                         </div>
