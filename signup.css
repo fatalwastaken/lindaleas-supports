@@ -35,7 +35,7 @@ section
 {
     position: relative;
     width: 480px;
-    height: 650px;
+    height: 750px;
     background: #1c1c1c;
     display: flex;
     justify-content: center;
@@ -50,7 +50,7 @@ section
     top: -50%;
     left: -50%;
     width: 480px;
-    height: 650px;
+    height: 750px;
     background: linear-gradient(0deg, transparent, #ec13a2, #ec13a2);
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
@@ -62,7 +62,7 @@ section
     top: -50%;
     left: -50%;
     width: 480px;
-    height: 650px;
+    height: 750px;
     background: linear-gradient(0deg, transparent, #ec13a2, #ec13a2);
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
@@ -101,6 +101,8 @@ section
 {
     position: relative;
     align-self: center;
+    justify-content: center;
+    align-text: center;
     width: 300px;
     margin-top: 35px;
 }
