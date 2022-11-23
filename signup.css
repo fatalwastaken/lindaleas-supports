@@ -17,7 +17,7 @@ section
     justify-content: center;
     position: relative;
     padding: 50px 100px;
-    margin-bottom: 350px;
+    margin-bottom: 400px;
 }
 .container
 {
@@ -34,7 +34,7 @@ section
 {
     position: relative;
     width: 480px;
-    height: 715px;
+    height: 700px;
     background: #1c1c1c;
     display: flex;
     justify-content: center;
@@ -49,7 +49,7 @@ section
     top: -50%;
     left: -50%;
     width: 480px;
-    height: 715px;
+    height: 700px;
     background: linear-gradient(0deg, transparent, #ec13a2, #ec13a2);
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
@@ -61,7 +61,7 @@ section
     top: -50%;
     left: -50%;
     width: 480px;
-    height: 715px;
+    height: 700px;
     background: linear-gradient(0deg, transparent, #ec13a2, #ec13a2);
     transform-origin: bottom right;
     animation: animate 6s linear infinite;
